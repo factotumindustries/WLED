@@ -20,7 +20,7 @@ react to the globes orientation. See the blog post on building it <https://www.r
 
 I2Cdev and MPU6050 must be installed.
 
-To install them, add I2Cdevlib-MPU6050@fbde122cc5 to lib_deps in the platformio.ini file.
+To install them, add I2Cdevlib-MPU6050@ to lib_deps in the platformio.ini file.
 
 You also need to change lib_compat_mode from strict to soft in platformio.ini (This ignores that I2Cdevlib-MPU6050 doesn't list platform compatibility)
 
@@ -37,6 +37,7 @@ lib_deps =
     Esp Async WebServer@1.2.0
     IRremoteESP8266@2.7.3
     jrowberg/I2Cdevlib-MPU6050@^1.0.0
+    I2Cdevlib-MPU6050@
 ```
 
 ## Wiring
